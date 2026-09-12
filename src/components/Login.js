@@ -9,7 +9,7 @@ export default function Login({isLoggedin,setIsLoggedin}) {
   return (
     <div>
          {
-        isLoggedin ? (<p>You are Looged in! </p>): (<form onSubmit={handleSubmit}>
+        isLoggedin ? <p>You are logged in!</p>: (<form onSubmit={handleSubmit}>
         <label for="username">Username: </label>
         <input type='text' id='username'/> <br/>
 
